@@ -19,4 +19,14 @@
     <servlet-name>SessionTrackingServlet</servlet-name>
     <url-pattern>/SessionTrackingServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SessionTimeServlet</display-name>
+    <servlet-name>SessionTimeServlet</servlet-name>
+    <servlet-class>p4n.SessionTimeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionTimeServlet</servlet-name>
+    <url-pattern>/SessionTimeServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
